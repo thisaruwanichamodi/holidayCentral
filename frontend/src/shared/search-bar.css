@@ -1,0 +1,71 @@
+.search__bar{
+    padding: 0.5rem;
+    border-radius: 50px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    width: max-content;
+    margin-top: 50px;
+}
+.form__group span{
+    font-size: 1.8rem;
+    color: #004561;
+}
+.form__group input{
+    border: none;
+    font-size: 0.9rem;
+    color: var(--heading-color);
+    font-weight: 500;
+}
+.form__group input:focus{
+    outline: none;
+}
+
+.form__group h6{
+    margin-bottom: 0;
+}
+
+.form__group-fast{
+    border-right: 2px solid #ddd;
+}
+
+.search__icon i{
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    background: #00AAED;
+    color: #fff;
+    border-radius: 10px 5px 10px 5px;  
+    cursor: pointer;
+}
+.specialty select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  /* Style the arrow icon */
+  .specialty select::after {
+    content: "\25BC";
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  /* Remove the blue highlight when the element is clicked */
+  .specialty select:focus {
+    outline: none;
+  }
+  

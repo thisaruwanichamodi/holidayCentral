@@ -1,0 +1,34 @@
+{
+    "packages": [
+      {
+        "id": 1,
+        "name": "Romantic Getaway to Bali",
+        "image": "https://images.unsplash.com/photo-1573497496062-b38fa6e7e9c9",
+        "price": 850,
+        "duration": 7,
+        "rating": 4.5,
+        "maxGroupSize": 10,
+        "specialty": "Honeymoon"
+      },
+      {
+        "id": 2,
+        "name": "Family Adventure in Costa Rica",
+        "image": "https://images.unsplash.com/photo-1585132308401-cd799d7aa55e",
+        "price": 1200,
+        "duration": 10,
+        "rating": 4.3,
+        "maxGroupSize": 8,
+        "specialty": "Family"
+      },
+      {
+        "id": 3,
+        "name": "Beach Escape to Phuket",
+        "image": "https://images.unsplash.com/photo-1519861531475-e8fb6d29f6f5",
+        "price": 500,
+        "duration": 5,
+        "rating": 4.8,
+        "maxGroupSize": 12,
+        "specialty": "Beach holiday"
+      }
+    ]
+}
